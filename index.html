@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 2 Years, Amory 🌸🤍</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   
+   <div id="whiteScreen" class="white-screen"></div>
+   
+    <div id="blackScreen" class="black-screen"></div>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<section id="loading" class="screen active">
+
+<h1>🌸🤍</h1>
+
+<h2>Loading your surprise...</h2>
+
+<div class="loader"></div>
+
+</section>
+
+
+<div class="hearts"></div>
+
+<!-- تسجيل الدخول -->
+<section id="login" class="screen">
+
+<h1 class="title">
+♡ Made with love,
+ just for you  
+</h1>
+
+<p id="welcome">
+
+<p class="subtitle">
+ENTER   THE   SECRET   WORD 
+</p>
+
+<input
+type="password"
+id="password"
+placeholder=" * password * ">
+<div class="line"></div>
+<button onclick="checkPassword()">
+💕 Unlock 💕
+</button>
+
+</section>
+
+<!-- الرسالة -->
+<section id="message" class="screen">
+
+<h2>💕</h2>
+
+<p id="typing"></p>
+
+<button onclick="nextPage()">
+Begin
+</button>
+
+</section>
+
+<!-- العداد -->
+<section id="counter" class="screen">
+
+
+<h3>♡بدايتنا  25/7/2024♡ </h3>
+
+<div id="timer">
+
+<div class="time-box">
+<div id="years">00</div>
+<span>Years</span>
+</div>
+
+<div class="time-box">
+<div id="days">000</div>
+<span>Days</span>
+</div>
+
+<div class="time-box">
+<div id="hours">00</div>
+<span>Hours</span>
+</div>
+
+<div class="time-box">
+<div id="minutes">00</div>
+<span>Minutes</span>
+</div>
+
+<div class="time-box">
+<div id="seconds">00</div>
+<span>Seconds</span>
+</div>
+
+</div>
+
+<button onclick="nextPage()">
+Next
+</button>
+
+</section>
+
+<!-- الفيديوهات -->
+<section id="videos" class="screen">
+
+
+
+<div id="v1">
+<video controls width="100%">
+<source src="video1.mp4" type="video/mp4">
+</video>
+<p class="video-text">
+فاكر ده؟ 😂🤍
+كنت باخد كل ستوري تنزله وأحتفظ بيه.
+</p>
+<button onclick="
+document.getElementById('v1').style.display='none';
+document.getElementById('v2').style.display='block';
+">
+Next
+</button>
+</div>
+
+
+<div id="v2" style="display:none;">
+<video controls width="100%">
+<source src="video2.mp4" type="video/mp4">
+</video>
+<p class="video-text">
+وده برضو من الحاجات اللي فضلت معايا.
+كل ما أشوفه أفتكر الفترة دي كنت رومانسي اوي انا فاكره تاني يوم لما كنت فالقهوه وكانو مشغلين اغنيه ام كلثوم ونت قعدت تسجلي ريكات وتقولي اخلصي انطقي ب اي حاجه قبل م امشي م الحته دي😂 الريكات كانت معايا بس اتمسحت قريب للاسف. 🌸🤍
+</p>
+<button onclick="nextPage()">
+Next
+</button>
+</div>
+
+
+
+</section>
+
+<!-- الأغنية -->
+<audio id="bgMusic" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+<section id="music" class="screen">
+
+
+
+
+<button onclick="nextPage()"> 🩷Continue</button> 
+
+</section>
+
+<!-- الهدية -->
+<section id="gift" class="screen">
+
+
+<div class="gift-box" onclick="openGift()">💌</div>
+
+<p id="finalMessage">
+
+يمكن معندناش صور مع بعض 
+ولا ذكريات في الحقيقه.
+
+<br><br>
+
+بس عندنا حاجة أحلى
+إننا لسه مع بعض بعد كل الخناق والمشاكل والحوارات الهبله دي. 🤍🌸
+
+<br><br>
+
+وإن شاء الله السنين الجاية يبقى عندنا ذكريات أكتر بكتير واكيد هنتقابل ف مره وبدل الفديوهات دي هنملي الويب ب صورنا احنا❣️.
+
+<br><br>
+
+بحبك يا <span class="name">عموري😔💕 </span>
+
+<br><br>
+
+وهفضل أحبك كل يوم أكتر من اللي قبله مع انك متستاهلش يحيوان بس بحبك بردو. 🤍🌸
+
+<br><br>
+
+اعمل نفسك مش واخد بالك عشان بتكسف😔❣️
+
+</p>
+
+</section>
+
+<script src="script.js"></script>
+
+<div id="whiteScreen" class="white-screen"></div>
+
+</body>
+
+</html>
